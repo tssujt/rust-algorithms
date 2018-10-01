@@ -1,7 +1,7 @@
 # rust-algorithms
-Rust algorithms implemented in Python
+Algorithms implemented in Rust
 
 ## Sort Algorithms
 
- - [bubble_sort](src/sort/bubble_sort.rs)
- - [insertion_sort](src/sort/insertion_sort.rs)
+ - [Bubble Sort](src/sort/bubble_sort.rs)
+ - [Insertion Sort](src/sort/insertion_sort.rs)
