@@ -1,0 +1,3 @@
+indent_style = "Block"
+brace_style = "SameLineWhere"
+edition = "2018"

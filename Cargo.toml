@@ -1,0 +1,5 @@
+[package]
+name = "algorithms"
+version = "0.1.0"
+authors = ["tssujt <contactxjw@gmail.com>"]
+edition = "2018"
