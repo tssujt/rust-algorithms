@@ -6,3 +6,4 @@ Algorithms implemented in Rust
  - [Bubble Sort](src/sort/bubble_sort.rs)
  - [Bucket Sort](src/sort/bucket_sort.rs)
  - [Insertion Sort](src/sort/insertion_sort.rs)
+ - [Merge Sort](src/sort/merge_sort.rs)
