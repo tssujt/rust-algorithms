@@ -7,6 +7,7 @@ mod test {
     use algorithms::sort::bucket_sort::*;
     use algorithms::sort::insertion_sort::*;
     use algorithms::sort::merge_sort::*;
+    use algorithms::sort::quick_sort::*;
     use algorithms::sort::selection_sort::*;
 
     #[test]
@@ -67,6 +68,21 @@ mod test {
     #[test]
     fn test_merge_sort_random() {
         assert_eq!(vec![2, 4, 5, 6], merge_sort(vec![6, 4, 5, 2]));
+    }
+
+    #[test]
+    fn test_quick_sort_reverse() {
+        assert_eq!(vec![1, 2, 3, 4], quick_sort(vec![4, 3, 2, 1]));
+    }
+
+    #[test]
+    fn test_quick_sort_same() {
+        assert_eq!(vec![1, 2, 3, 4], quick_sort(vec![1, 2, 3, 4]));
+    }
+
+    #[test]
+    fn test_quick_sort_random() {
+        assert_eq!(vec![1, 2, 3, 4, 5, 6, 7], quick_sort(vec![6, 4, 5, 2, 3, 7, 1]));
     }
 
     #[test]
