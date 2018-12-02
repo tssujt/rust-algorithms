@@ -1,6 +1,5 @@
 extern crate algorithms;
 
-
 #[cfg(test)]
 mod test {
     use algorithms::sort::bubble_sort::*;
@@ -82,7 +81,10 @@ mod test {
 
     #[test]
     fn test_quick_sort_random() {
-        assert_eq!(vec![1, 2, 3, 4, 5, 6, 7], quick_sort(vec![6, 4, 5, 2, 3, 7, 1]));
+        assert_eq!(
+            vec![1, 2, 3, 4, 5, 6, 7],
+            quick_sort(vec![6, 4, 5, 2, 3, 7, 1])
+        );
     }
 
     #[test]
